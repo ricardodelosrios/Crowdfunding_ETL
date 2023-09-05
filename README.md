@@ -2,13 +2,13 @@
 
 ## Introduction
 
-The ETL project will be building an ETL pipeline using Python, Pandas, and Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, it will create four CSV files and use the data in the CSV file to create an ERD and a table schema. Finally, It'll load the data into a Postgres database.
+The ETL project will be building an ETL pipeline using Python, Pandas, and Python dictionary methods or regular expressions to extract and transform the data. After transforming the data, it will create four CSV files and use the data from the CSV file to create an ERD and a table schema. Finally, it will load the data into a Postgres database.
 
 ## Folders and files
 
-* It is going to find a **folder** in this project:
+* There is a **Resources folder** in this project:
 
-   * The folder called `Resouces` will find 4 CSV files which were the exportable files of the exercise. The folder named `Resouces` will find 4 CSV files that were the exportable files of the exercise. And 2 xlsx files that are the original databases that the project had. Listed below are the names of the files you will find:
+   * This folder contains 4 CSV files that were the exportable files from the exercise, and 2 xlsx files that are the original databases used for the project. Listed below are the names of the files:
 
       * [crowdfunding.xlsx](https://github.com/Subiksha-SS/Crowdfunding_ETL/tree/main/Resources)
       * [contacts.xlsx](https://github.com/Subiksha-SS/Crowdfunding_ETL/tree/main/Resources)
@@ -17,11 +17,11 @@ The ETL project will be building an ETL pipeline using Python, Pandas, and Pytho
       * [contacts.csv](https://github.com/Subiksha-SS/Crowdfunding_ETL/tree/main/Resources)
       * [campaign.csv](https://github.com/Subiksha-SS/Crowdfunding_ETL/tree/main/Resources)
     
-* It will find **3 Files** in this project:
+* There are **3 Files** in this project:
   
-    * [ETL_Mini_Project_RDelosrios_SSuresh.ipynb](https://github.com/Subiksha-SS/Crowdfunding_ETL/blob/main/ETL_Mini_Project_RDelosrios_SSuresh.ipynb). In this file you will find the code to extract, transform the data and create the Category, Subcategory, Campaign, Contacts DataFrames.
-    * [crowdfunding_db_schema.sql](). There is a schema that was built in Quick Database Diagram.
-    * [ETL_Crowdfunding_ERD.png]().
+    * [ETL_Mini_Project_RDelosrios_SSuresh.ipynb](https://github.com/Subiksha-SS/Crowdfunding_ETL/blob/main/ETL_Mini_Project_RDelosrios_SSuresh.ipynb). In this file you will find the code to extract, transform         the data and create the Category, Subcategory, Campaign, Contacts DataFrames.
+    * [crowdfunding_db_schema.sql](). This the schema that was built in PostgreSQL .
+    * [ETL_Crowdfunding_ERD.png](). This diagrams was created using Quick Database Diagram.
     * [.gitignore](https://github.com/Subiksha-SS/Crowdfunding_ETL/blob/main/.gitignore):In this file, it saved the password to access to PGAdmin and be able to create the connection with the sqlalchemy library.
 
 ## Extract, Transform, Load (ETL) 
@@ -131,7 +131,7 @@ Finally, the column called 'name' was removed and the other columns were reorder
 
 ### Data modeling
 
-To carry out the modeling, it was used the webside Quick Database Diagrams, which serve as a visual representation of the structure of a database, helping to illustrate the relationships between different tables, entities and attributes within the database. 
+To carry out the modeling, it was used the webside Quick Database Diagrams, which serves as a visual representation of the structure of a database, helping to illustrate the relationships between different tables, entities and attributes within the database. 
 
 This diagram was built using [Quick Database Diagram](https://www.quickdatabasediagrams.com/).
 
@@ -141,7 +141,7 @@ This diagram was built using [Quick Database Diagram](https://www.quickdatabased
 
 The information provided by the Entity Relationship Diagram was used to create a table schema for each of the four CSV files, and then, the data from each of the CSV files was imported into PostgreSQL.
 
-It can see the tables with their relationships in the [Schema]().
+The data from the tables and their relationships are in the [Schema]().
 
 ## Developers
 
