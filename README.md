@@ -20,8 +20,8 @@ The ETL project will be building an ETL pipeline using Python, Pandas, and Pytho
 * There are **3 Files** in this project:
   
     * [ETL_Mini_Project_RDelosrios_SSuresh.ipynb](https://github.com/Subiksha-SS/Crowdfunding_ETL/blob/main/ETL_Mini_Project_RDelosrios_SSuresh.ipynb). In this file you will find the code to extract, transform         the data and create the Category, Subcategory, Campaign, Contacts DataFrames.
-    * [crowdfunding_db_schema.sql](). This the schema that was built in PostgreSQL .
-    * [ETL_Crowdfunding_ERD.png](). This diagrams was created using Quick Database Diagram.
+    * [crowdfunding_db_schema.sql](https://github.com/Subiksha-SS/Crowdfunding_ETL/blob/main/crowdfunding_db_schema.sql). This the schema that was built in PostgreSQL .
+    * [ETL_Crowdfunding_ERD.png](https://github.com/Subiksha-SS/Crowdfunding_ETL/blob/main/ETL_Crowdfunding_ERD.png). This diagrams was created using Quick Database Diagram.
     * [.gitignore](https://github.com/Subiksha-SS/Crowdfunding_ETL/blob/main/.gitignore):In this file, it saved the password to access to PGAdmin and be able to create the connection with the sqlalchemy library.
 
 ## Extract, Transform, Load (ETL) 
@@ -135,7 +135,7 @@ To carry out the modeling, it was used the webside Quick Database Diagrams, whic
 
 This diagram was built using [Quick Database Diagram](https://www.quickdatabasediagrams.com/).
 
-![alt text]()
+![alt text](https://github.com/Subiksha-SS/Crowdfunding_ETL/blob/main/ETL_Crowdfunding_ERD.png)
 
 ### Data engineering
 
